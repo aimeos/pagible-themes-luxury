@@ -32,6 +32,7 @@
 }
 
 .cards .card-item picture {
+    border: none;
     padding: 0;
 }
 

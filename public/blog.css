@@ -112,14 +112,9 @@
     flex: 3;
 }
 
-.blog .second h3,
-.blog .blog-list h3 {
-    font-size: calc(var(--pico-font-size) * 0.75);
-}
-
 .blog .blog-list .intro {
     color: var(--pico-muted-color);
-    font-size: calc(var(--pico-font-size) * 0.7);
+    font-size: calc(var(--pico-font-size) * 0.8);
     margin: 0.25rem 0 0;
 }
 

@@ -36,6 +36,7 @@
 }
 
 .cards .card-item picture {
+    text-align: start;
     border: none;
     padding: 0;
 }

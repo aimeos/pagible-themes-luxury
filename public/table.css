@@ -34,6 +34,14 @@
     align-self: end;
 }
 
+.table-responsive .th:first-child {
+    text-align: start;
+}
+
+.table-responsive .table-row:first-child .th:first-child:not(.col) {
+    text-align: center;
+}
+
 .table-responsive .td {
     font-size: calc(var(--pico-font-size) * 0.75);
     text-align: center;

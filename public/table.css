@@ -65,7 +65,7 @@
         flex-wrap: wrap;
     }
 
-    .table-responsive .row:first-child .col:first-child {
+    .table-responsive .table-row:first-child .table-col:first-child {
         display: none
     }
 

@@ -227,6 +227,10 @@ footer.cms-content .cards .card-item:hover {
     transform: none;
 }
 
+footer.cms-content .cards h2 {
+    color: var(--pico-contrast-inverse);
+}
+
 footer.cms-content .cards .title {
     color: var(--pico-contrast-hover-background);
     font-size: calc(var(--pico-font-size) * 0.8);
@@ -262,6 +266,7 @@ footer.cms-content .cards :is(.text, .cms-text) a:hover {
 footer.cms-content .cards :is(.text, .cms-text) ul {
     padding-left: 0;
     list-style: none;
+    white-space: normal;
 }
 
 footer.cms-content .heading h1,

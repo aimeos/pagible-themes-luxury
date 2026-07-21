@@ -161,7 +161,7 @@
     margin: 0 0 0.25rem;
 }
 
-.pricing .pricing-header .text {
+.pricing .pricing-header .cms-text {
     font-size: 0.875rem;
     color: var(--pico-muted-color);
     font-weight: 400;
@@ -169,7 +169,7 @@
     margin: 0 0 0.75rem;
 }
 
-.pricing .highlight .pricing-header .text {
+.pricing .highlight .pricing-header .cms-text {
     color: var(--pico-contrast-hover-background);
 }
 
@@ -239,8 +239,8 @@
 
 .pricing .highlight .btn {
     background-color: var(--pico-primary);
+    border-color: var(--pico-primary-inverse);
     color: var(--pico-primary-inverse);
-    border-color: var(--pico-primary);
 }
 
 .pricing .highlight .btn:hover {

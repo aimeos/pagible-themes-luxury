@@ -99,8 +99,6 @@
     background-color: var(--pico-contrast);
     color: var(--pico-contrast-inverse);
     border-color: var(--pico-contrast);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     box-shadow: 0 1.5rem 4rem -1rem var(--pico-muted-border-color);
 }
 
@@ -121,8 +119,7 @@
 .pricing .pricing-header {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0;
 }
 
 .pricing .price {
@@ -135,7 +132,7 @@
 }
 
 .pricing .highlight .price {
-    border-bottom-color: var(--pico-contrast-border);
+    border-bottom-color: var(--pico-contrast-inverse);
 }
 
 .pricing .amount {
